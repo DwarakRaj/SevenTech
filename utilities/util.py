@@ -17,7 +17,7 @@ def read_data_from_excel(path, sheet_name="", row_number=0, col_number=0, everyt
                     return gen_row_obj[2]
                 else:
                     return gen_row_obj[2]
-
+#adding a command
     elif everything:
         final_list_data = []
         wb = xlrd.open_workbook(path)
